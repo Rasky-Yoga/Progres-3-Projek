@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Drivo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="favorite_fragment">Favorite Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="notification_fragment">Notification Fragment</string>
+    <string name="ford">Ford</string>
+    <string name="_4_6">4.6</string>
+    <string name="review">(review)</string>
+    <string name="_1_2jt_hari">1.2Jt/hari</string>
+    <string name="mobil">mobil</string>
+    <string name="splash_screen">splash_screen</string>
+    <string name="user_location">Your Location</string>
+    <string name="cari_kendaraan">Cari kendaraan</string>
+    <string name="ubud_gianyar">Ubud, Gianyar</string>
+    <string name="temukan_kendaraan">temukan kendaraan favorit anda.</string>
+    <string name="drivo_logo">Drivo_logo</string>
+    <string name="mulai">Mulai</string>
+    <string name="cari_dan_sewa_mobil">cari dan sewa mobil dengan mudah.</string>
+    <string name="mobil_intro">Mobil_intro</string>
+    <string name="judul_grup">Judul Grup</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="brand_logo">Brand_logo</string>
+    <string name="top_drivo_logo">top_drivo_logo</string>
+    <string name="terms_of_service_login">Dengan masuk atau mendaftar, anda menyetujui Terms of service dan Privacy policy kami.</string>
+    <string name="top_id_icon">top_id_icon</string>
+    <string name="top_i_icon">top_i_icon</string>
+    <string name="masuk">Masuk</string>
+    <string name="masuk_desc">Masukan email dan password terdaftar anda untuk masuk</string>
+    <string name="email_judul">Email</string>
+    <string name="nama_email">nama@email.com</string>
+    <string name="atribut_bintang">*</string>
+    <string name="password_hint">***********</string>
+    <string name="password">Password</string>
+    <string name="lupa_password"><u>Lupa Password?</u></string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="daftar">Daftar</string>
+    <string name="daftar_desc">Masukan beberapa detail di bawah</string>
+</resources>

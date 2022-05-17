@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelamatDatang">
+
+    <ImageView
+        android:id="@+id/drivo_logo_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/drivo_logo_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/top_drivo_logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_id"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/top_id_icon" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/on_boarding_container"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drivo_logo_horizontal"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+        android:id="@+id/login_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.4dp"
+        app:dampingRatio="0.6"
+        app:dotsColor="@color/purple"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="12dp"
+        app:dotsSpacing="8dp"
+        app:dotsStrokeColor="@color/purple"
+        app:dotsStrokeWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/on_boarding_container"
+        app:stiffness="200" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/mulai_button"
+        android:textColor="@color/white"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/masuk"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_dots_indicator"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/daftar_button"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/daftar_button_bg"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/daftar"
+        android:textAllCaps="false"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_masuk"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/terms_of_service_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:textColor="@color/black"
+        android:text="@string/terms_of_service_login"
+        android:fontFamily="@font/gilroy_regular"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/daftar_button"
+        tools:layout_editor_absoluteX="28dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

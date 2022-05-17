@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/back_arrow_top"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/top_drivo_logo"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/drivo_logo_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/back_arrow_top"
+        android:contentDescription="@string/top_drivo_logo"
+        android:src="@drawable/drivo_logo_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/back_arrow_top"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="34dp"
+        android:contentDescription="@string/top_i_icon"
+        android:src="@drawable/ic_i"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/text_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drivo_logo_horizontal"
+        android:layout_alignBottom="@+id/drivo_logo_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="-61dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/masuk"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drivo_logo_horizontal" />
+
+    <TextView
+        android:id="@+id/text_masuk_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_masuk"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/gilroy_regular"
+        android:text="@string/masuk_desc"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masuk" />
+
+    <TextView
+        android:id="@+id/email_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_masuk_description"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/email_judul"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/email_judul_bintang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_masuk_description"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/email_judul"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/atribut_bintang"
+        android:textColor="@color/redist"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/email_judul"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <EditText
+        android:id="@+id/email_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_judul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/text_input_bg"
+        android:fontFamily="@font/gilroy_bold"
+        android:hint="@string/nama_email"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/password_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/password_judul_bintang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_password"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/password_judul"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/atribut_bintang"
+        android:textColor="@color/redist"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/email_judul"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_judul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/text_input_bg"
+        android:fontFamily="@font/gilroy_bold"
+        android:hint="@string/password_hint"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lupa_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_password"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/lupa_password"
+        android:textColor="@color/purple"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/lupa_password"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/mulai_button"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/lanjutkan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lupa_password"
+        app:layout_constraintVertical_bias="0.185" />
+
+
+</RelativeLayout>

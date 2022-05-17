@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_round_home_24"
+        android:id="@+id/home"/>
+    <item android:title="Favorite"
+        android:icon="@drawable/ic_round_favorite_24"
+        android:id="@+id/favorite"/>
+    <item android:title="Notification"
+        android:icon="@drawable/ic_round_notifications_24"
+        android:id="@+id/notification"/>
+    <item android:title="Settings"
+        android:icon="@drawable/ic_round_settings_24"
+        android:id="@+id/settings"/>
+</menu>
