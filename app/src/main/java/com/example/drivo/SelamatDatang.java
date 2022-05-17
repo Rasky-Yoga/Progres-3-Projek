@@ -22,7 +22,8 @@ public class SelamatDatang extends AppCompatActivity {
     SpringDotsIndicator dotsIndicator;
     ViewAdapter viewAdapter;
 
-    Button button_masuk;
+    Button btnMasuk;
+    Button btnDaftar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class SelamatDatang extends AppCompatActivity {
         dotsIndicator.setViewPager(viewPager);
 
 
-        // Ubah warna font tertentu
+        // Ubah warna font
 
         TextView textView = findViewById(R.id.terms_of_service_text);
         String text = "Dengan masuk atau mendaftar, anda menyetujui " +
@@ -53,13 +54,25 @@ public class SelamatDatang extends AppCompatActivity {
 
         textView.setText(ss);
 
-        button_masuk = findViewById(R.id.button_masuk);
-        button_masuk.setOnClickListener(view -> {
 
-            Intent mulai = new Intent(SelamatDatang.this, MainActivity.class);
+        // Masuk & Daftar
+
+        btnMasuk = findViewById(R.id.button_masuk);
+        btnDaftar = findViewById(R.id.button_daftar);
+
+        btnMasuk.setOnClickListener(view -> {
+
+            Intent mulai = new Intent(SelamatDatang.this, Login.class);
             startActivity(mulai);
 
     });
+
+        btnDaftar.setOnClickListener(view -> {
+
+            Intent daftar = new Intent(SelamatDatang.this, Daftar.class);
+            startActivity(daftar);
+
+        });
 
     }
 }

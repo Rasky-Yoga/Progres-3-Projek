@@ -28,7 +28,7 @@
     <string name="top_id_icon">top_id_icon</string>
     <string name="top_i_icon">top_i_icon</string>
     <string name="masuk">Masuk</string>
-    <string name="masuk_desc">Masukan email dan password terdaftar anda untuk masuk</string>
+    <string name="masuk_desc">Silakan masuk dengan email dan password yang terdaftar</string>
     <string name="email_judul">Email</string>
     <string name="nama_email">nama@email.com</string>
     <string name="atribut_bintang">*</string>
@@ -38,4 +38,12 @@
     <string name="lanjutkan">Lanjutkan</string>
     <string name="daftar">Daftar</string>
     <string name="daftar_desc">Masukan beberapa detail di bawah</string>
+    <string name="nama_email_misal_daftar">Misal. nama@email.com</string>
+    <string name="no_telp">123xxxxxxxxx</string>
+    <string name="nama_daftar">Nama</string>
+    <string name="nama_misal">Misal. Made Anu</string>
+    <string name="lupa_password_desc">Kami akan mengirimkan link ke email untuk mengatur ulang password anda</string>
+    <string name="input_email_reset">Masukkan email anda yang terdaftar untuk menerima link</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
 </resources>

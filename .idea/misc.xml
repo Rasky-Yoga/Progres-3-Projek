@@ -6,19 +6,22 @@
         <entry key="app/src/main/res/drawable/bg_daftar_button.xml" value="0.103" />
         <entry key="app/src/main/res/drawable/bg_nav_white.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/bg_search.xml" value="0.41157189941406247" />
+        <entry key="app/src/main/res/drawable/circle_button_bg.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/daftar_button_bg.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/drivo_logo_horizontal.xml" value="0.1785" />
         <entry key="app/src/main/res/drawable/drivo_logo_text.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_next_arrrow_button.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/login_item_1.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/login_item_3.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/mulai_button.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/nav_indicator.xml" value="0.1685" />
-        <entry key="app/src/main/res/layout/activity_daftar.xml" value="0.19894561767578128" />
+        <entry key="app/src/main/res/layout/activity_daftar.xml" value="0.15496978759765628" />
         <entry key="app/src/main/res/layout/activity_get_started.xml" value="0.2209503173828125" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15057220458984377" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.14177703857421875" />
+        <entry key="app/src/main/res/layout/activity_lupa_password.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.284765625" />
-        <entry key="app/src/main/res/layout/activity_selamat_datang.xml" value="0.30920368139294613" />
+        <entry key="app/src/main/res/layout/activity_selamat_datang.xml" value="0.1596858591273211" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.16304347826086957" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25717660075288196" />
