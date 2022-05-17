@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Daftar">
 
-
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/back_arrow_top_daftar"
         android:layout_width="32dp"
